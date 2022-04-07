@@ -1,0 +1,3 @@
+/usr/local/include/helloworld/HelloWorld.h
+/usr/local/lib/libhelloworld.a
+/usr/local/lib/libhelloworld.so

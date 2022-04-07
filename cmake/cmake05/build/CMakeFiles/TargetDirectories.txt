@@ -1,0 +1,5 @@
+/home/mrxovo/Codes/cpp/cmake/cmake05/build/CMakeFiles/edit_cache.dir
+/home/mrxovo/Codes/cpp/cmake/cmake05/build/CMakeFiles/rebuild_cache.dir
+/home/mrxovo/Codes/cpp/cmake/cmake05/build/bin/CMakeFiles/helloworld.dir
+/home/mrxovo/Codes/cpp/cmake/cmake05/build/bin/CMakeFiles/edit_cache.dir
+/home/mrxovo/Codes/cpp/cmake/cmake05/build/bin/CMakeFiles/rebuild_cache.dir

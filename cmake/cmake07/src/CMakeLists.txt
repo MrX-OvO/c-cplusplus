@@ -1,0 +1,11 @@
+ADD_EXECUTABLE(helloworld main.cpp)
+
+INCLUDE_DIRECTORIES(/usr/local/include/helloworld)
+
+find_library(LIBHELLOWORLD_PATH helloworld /usr/local/lib)
+IF(NOT LIBHELLOWORLD_PATH)
+MESSAGE(TATAL_ERROR "libhelloworld not found")
+ENDIF(NOT LIBHELLOWORLD_PATH)
+
+MESSAGE(STATUS ${LIBHELLOWORRLD_PATH} "found")
+TARGET_LINK_LIBRARIES(helloworld ${LIBHELLOWORLD_PATH})

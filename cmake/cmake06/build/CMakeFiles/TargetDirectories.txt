@@ -1,0 +1,14 @@
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/CMakeFiles/edit_cache.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/CMakeFiles/rebuild_cache.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/CMakeFiles/list_install_components.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/CMakeFiles/install.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/CMakeFiles/install/local.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/CMakeFiles/install/strip.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/bin/CMakeFiles/helloworld_static.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/bin/CMakeFiles/helloworld_shared.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/bin/CMakeFiles/edit_cache.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/bin/CMakeFiles/rebuild_cache.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/bin/CMakeFiles/list_install_components.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/bin/CMakeFiles/install.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/bin/CMakeFiles/install/local.dir
+/home/mrxovo/Codes/cpp/cmake/cmake06/build/bin/CMakeFiles/install/strip.dir

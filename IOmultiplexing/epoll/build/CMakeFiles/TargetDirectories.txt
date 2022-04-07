@@ -1,0 +1,6 @@
+/home/mrx_ovo/Programs/c c++/IOmultiplexing/epoll/build/CMakeFiles/edit_cache.dir
+/home/mrx_ovo/Programs/c c++/IOmultiplexing/epoll/build/CMakeFiles/tcp_client.out.dir
+/home/mrx_ovo/Programs/c c++/IOmultiplexing/epoll/build/CMakeFiles/tcp_server03.out.dir
+/home/mrx_ovo/Programs/c c++/IOmultiplexing/epoll/build/CMakeFiles/tcp_server02.out.dir
+/home/mrx_ovo/Programs/c c++/IOmultiplexing/epoll/build/CMakeFiles/rebuild_cache.dir
+/home/mrx_ovo/Programs/c c++/IOmultiplexing/epoll/build/CMakeFiles/tcp_server01.out.dir

@@ -1,0 +1,11 @@
+{
+    "host": "localhost",
+    "user": "mrxovo",
+    "passwd": "123@",
+    "db": "mytest",
+    "port": 3306,
+    "min": 100,
+    "max": 1024,
+    "timeout": 1000,
+    "max_idle_time": 5000
+}

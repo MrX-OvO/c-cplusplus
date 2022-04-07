@@ -1,0 +1,2 @@
+PROJECT(HelloWorld)
+ADD_SUBDIRECTORY(src bin)
