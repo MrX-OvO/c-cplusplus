@@ -33,7 +33,7 @@ class MySQLConn {
   // 事务回滚
   bool rollback();
   // 刷新起始的空闲时间点
-  void refreshAlive();
+  void refreshAliveTime();
   // 计算连接存活的总时长
   long long aliveTime();
   // 计算表中字段数

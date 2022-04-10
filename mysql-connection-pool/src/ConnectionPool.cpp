@@ -27,7 +27,7 @@ std::shared_ptr<MySQLConn> ConnectionPool::getConn() {
   auto connPtr =
       std::shared_ptr<MySQLConn>(m_conn_Q.front(), [this](MySQLConn* conn) {
         std::unique_lock<std::mutex> locker(m_mutex_Q);
-        conn->refreshAlive();
+        conn->refreshAliveTime();
         m_conn_Q.push(conn);
       });
   m_conn_Q.pop();
@@ -38,8 +38,9 @@ std::shared_ptr<MySQLConn> ConnectionPool::getConn() {
 
 ConnectionPool::ConnectionPool() {
   // 加载配置文件
-  std::string jsonFile = "../config.json";
-  if (!parseJsonFile(jsonFile)) {
+  std::string jsonFile = "config.json";
+  auto flag = parseJsonFile(jsonFile);
+  if (!flag) {
     return;
   }
 
@@ -57,29 +58,40 @@ ConnectionPool::ConnectionPool() {
 
 bool ConnectionPool::parseJsonFile(std::string jsonFile) {
   std::ifstream ifs(jsonFile.c_str());
-  Json::Reader rd;
-  Json::Value root;
-  rd.parse(ifs, root);
-  if (root.isObject()) {
-    m_host = root["host"].asString();
-    m_user = root["user"].asString();
-    m_passwd = root["passwd"].asString();
-    m_db = root["db"].asString();
-    m_port = root["port"].asInt();
-    m_min = root["min"].asInt();
-    m_max = root["max"].asInt();
-    m_timeout = root["timeout"].asInt();
-    m_max_idle_time = root["max_idle_time"].asInt();
-    return true;
+  if (ifs.is_open()) {
+    Json::Reader rd;
+    Json::Value root;
+    if (rd.parse(ifs, root)) {
+      if (root.isObject()) {
+        m_host = root["host"].asString();
+        m_user = root["user"].asString();
+        m_passwd = root["passwd"].asString();
+        m_db = root["db"].asString();
+        m_port = root["port"].asInt();
+        m_min = root["min"].asInt();
+        m_max = root["max"].asInt();
+        m_timeout = root["timeout"].asInt();
+        m_max_idle_time = root["max_idle_time"].asInt();
+        return true;
+      }
+    } else {
+      std::cout << "解析json文件失败！\n";
+    }
+  } else {
+    std::cout << "打开json文件失败！\n";
   }
   return false;
 }
 
 void ConnectionPool::addConn() {
   MySQLConn* conn = new MySQLConn();
-  conn->connect(m_host, m_user, m_passwd, m_db, m_port);
-  conn->refreshAlive();
-  m_conn_Q.push(conn);
+  auto flag = conn->connect(m_host, m_user, m_passwd, m_db, m_port);
+  if (flag) {
+    conn->refreshAliveTime();
+    m_conn_Q.push(conn);
+  } else {
+    std::cout << "连接数据库失败！添加数据库连接池连接失败！\n";
+  }
 }
 
 void ConnectionPool::produceConn() {

@@ -16,9 +16,9 @@ MySQLConn::~MySQLConn() {
 
 bool MySQLConn::connect(std::string host, std::string user, std::string passwd,
                         std::string db, unsigned int port) {
-  auto ptr = mysql_real_connect(m_conn, host.c_str(), user.c_str(),
-                                passwd.c_str(), db.c_str(), port, nullptr, 0);
-  return ptr != nullptr;
+  mysql_real_connect(m_conn, host.c_str(), user.c_str(), passwd.c_str(),
+                     db.c_str(), port, nullptr, 0);
+  return m_conn != nullptr;
 }
 
 bool MySQLConn::insert(std::string sql) {
@@ -77,7 +77,7 @@ bool MySQLConn::commit() { return mysql_commit(m_conn); }
 
 bool MySQLConn::rollback() { return mysql_rollback(m_conn); }
 
-void MySQLConn::refreshAlive() {
+void MySQLConn::refreshAliveTime() {
   m_alive_time = std::chrono::steady_clock::now();
 }
 
