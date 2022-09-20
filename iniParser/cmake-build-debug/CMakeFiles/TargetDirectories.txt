@@ -1,0 +1,3 @@
+/home/mrxovo/Codes/cpp/iniParser/cmake-build-debug/CMakeFiles/iniParser.dir
+/home/mrxovo/Codes/cpp/iniParser/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mrxovo/Codes/cpp/iniParser/cmake-build-debug/CMakeFiles/rebuild_cache.dir

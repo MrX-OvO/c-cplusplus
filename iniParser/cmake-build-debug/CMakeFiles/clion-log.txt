@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/ninja -G Ninja -S /home/mrxovo/Codes/cpp/iniParser -B /home/mrxovo/Codes/cpp/iniParser/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mrxovo/Codes/cpp/iniParser/cmake-build-debug
