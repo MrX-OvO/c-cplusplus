@@ -4,7 +4,7 @@
 
 #include "singleton.h"
 
-Singleton::Deletor Singleton::deletor;
+Singleton::Deleter Singleton::deleter;
 
 Singleton *Singleton::m_instance = nullptr;
 

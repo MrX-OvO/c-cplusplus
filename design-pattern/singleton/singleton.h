@@ -19,14 +19,14 @@ private:
     Singleton() = default;
     ~Singleton() = default;
 
-    class Deletor {
+    class Deleter {
     public:
-        Deletor() = default;
-        ~Deletor() {
-            if (Singleton::m_instance != nullptr) delete Singleton::m_instance;
+        Deleter() = default;
+        ~Deleter() {
+            if (Singleton::m_instance != nullptr) { delete Singleton::m_instance; }
         }
     };
-    static Deletor deletor;
+    static Deleter deleter;
 
 private:
     static Singleton *m_instance;
