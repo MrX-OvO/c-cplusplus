@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.24.3/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -15,11 +15,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.24.3/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.24.3/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -125,8 +125,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/mrxovo/Codes/cpp/iniParser/cmake-build-debug",
-		"source" : "/home/mrxovo/Codes/cpp/iniParser"
+		"build" : "/home/mrxovo/Codes/cpp/EzLogSys/cmake-build-debug",
+		"source" : "/home/mrxovo/Codes/cpp/EzLogSys"
 	},
 	"version" : 
 	{

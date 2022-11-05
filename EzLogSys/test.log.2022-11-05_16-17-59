@@ -1,0 +1,12 @@
+[2022-11-05 16:17:53] [DEBUG] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:8 hello world
+[2022-11-05 16:17:53] [DEBUG] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:9 name is xyz, age is 10
+[2022-11-05 16:17:53] [INFO] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:10 info message
+[2022-11-05 16:17:53] [WARN] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:11 info message
+[2022-11-05 16:17:53] [ERROR] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:12 error message
+[2022-11-05 16:17:53] [FATAL] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:13 fatal message
+[2022-11-05 16:17:59] [DEBUG] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:8 hello world
+[2022-11-05 16:17:59] [DEBUG] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:9 name is xyz, age is 10
+[2022-11-05 16:17:59] [INFO] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:10 info message
+[2022-11-05 16:17:59] [WARN] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:11 info message
+[2022-11-05 16:17:59] [ERROR] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:12 error message
+[2022-11-05 16:17:59] [FATAL] /home/mrxovo/Codes/cpp/EzLogSys/main.cpp:13 fatal message
