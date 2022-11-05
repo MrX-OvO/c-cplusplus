@@ -6,3 +6,8 @@
 1	449	1667641895990933794	CMakeFiles/design_pattern.dir/main.cpp.o	c39e3b8f5b48d749
 0	386	1667642003125117137	CMakeFiles/design_pattern.dir/singleton/singleton.cpp.o	eba47be892b0d9e7
 387	530	1667642003268451484	design_pattern	a8d8e142813f4275
+0	289	1667643587024601294	CMakeFiles/design_pattern.dir/singleton/singleton.cpp.o	eba47be892b0d9e7
+0	331	1667643587067934617	CMakeFiles/design_pattern.dir/main.cpp.o	c39e3b8f5b48d749
+331	440	1667643587177934591	design_pattern	a8d8e142813f4275
+0	288	1667643665927914033	CMakeFiles/design_pattern.dir/singleton/singleton.cpp.o	eba47be892b0d9e7
+288	377	1667643666017914007	design_pattern	a8d8e142813f4275
