@@ -6,13 +6,14 @@
 #define DESIGN_PATTERN_SINGLETON_H
 
 #include <iostream>
+#include <memory>
 
 class Singleton {
 public:
     Singleton(const Singleton &) = delete;
     Singleton &operator=(const Singleton &) = delete;
 
-    static Singleton *instance();
+    static std::shared_ptr<Singleton> instance();
     inline void show() { std::cout << "Singleton::show()" << std::endl; }
 
 private:
@@ -20,7 +21,7 @@ private:
     ~Singleton() = default;
 
 private:
-    static Singleton *m_instance;
+    static std::shared_ptr<Singleton> m_instance;
 };
 
 #endif//DESIGN_PATTERN_SINGLETON_H
