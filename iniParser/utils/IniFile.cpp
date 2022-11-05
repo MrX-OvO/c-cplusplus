@@ -3,10 +3,12 @@
 //
 
 #include "IniFile.h"
-#include <boost/algorithm/string.hpp>
+
 #include <fstream>
 #include <iostream>
 #include <sstream>
+
+#include <boost/algorithm/string.hpp>
 
 namespace utils {
 

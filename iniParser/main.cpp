@@ -1,6 +1,5 @@
 #include "./utils/IniFile.h"
 using namespace utils;
-#include <vector>
 
 int main() {
     IniFile Inif;

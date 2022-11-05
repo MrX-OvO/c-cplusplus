@@ -4,3 +4,7 @@
 2	615	1663639941754644383	CMakeFiles/iniParser.dir/main.cpp.o	51e4c33528d7bbf6
 2	497	1663639941637972883	CMakeFiles/iniParser.dir/utils/Value.cpp.o	b36cc6fa658a4ad0
 2	1871	1663639943011363049	CMakeFiles/iniParser.dir/utils/IniFile.cpp.o	b74516a87c3ee8b8
+8	388	1667639068669158034	CMakeFiles/iniParser.dir/utils/Value.cpp.o	b36cc6fa658a4ad0
+3	473	1667639068752491252	CMakeFiles/iniParser.dir/main.cpp.o	51e4c33528d7bbf6
+8	1516	1667639069795823140	CMakeFiles/iniParser.dir/utils/IniFile.cpp.o	b74516a87c3ee8b8
+1516	1649	1667639069929156288	iniParser	e6666e1e3cb75fc0

@@ -6,8 +6,10 @@
 #define INIPARSER_INIFILE_H
 
 #include "./Value.h"
+
 #include <map>
 #include <string>
+
 using namespace utils;
 
 using Parameter = std::map<std::string, Value>;
