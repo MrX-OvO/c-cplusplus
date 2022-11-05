@@ -5,9 +5,22 @@
 #ifndef DESIGN_PATTERN_SINGLETON_H
 #define DESIGN_PATTERN_SINGLETON_H
 
+#include <iostream>
 
 class Singleton {
-};
+public:
+    Singleton(const Singleton &) = delete;
+    Singleton &operator=(const Singleton &) = delete;
 
+    static Singleton *instance();
+    inline void show() { std::cout << "Singleton::show()" << std::endl; }
+
+private:
+    Singleton() = default;
+    ~Singleton() = default;
+
+private:
+    static Singleton *m_instance;
+};
 
 #endif//DESIGN_PATTERN_SINGLETON_H

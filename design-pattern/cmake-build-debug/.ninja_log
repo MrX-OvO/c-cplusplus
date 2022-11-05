@@ -1,0 +1,4 @@
+# ninja log v5
+1	314	1667640391882935648	CMakeFiles/design_pattern.dir/singleton/singleton.cpp.o	eba47be892b0d9e7
+0	320	1667640391889602272	CMakeFiles/design_pattern.dir/main.cpp.o	c39e3b8f5b48d749
+320	427	1667640391996268264	design_pattern	a8d8e142813f4275

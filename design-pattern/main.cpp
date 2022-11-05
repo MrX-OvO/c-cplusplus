@@ -1,6 +1,6 @@
-#include <iostream>
+#include "./singleton/singleton.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Singleton::instance()->show();
     return 0;
 }
