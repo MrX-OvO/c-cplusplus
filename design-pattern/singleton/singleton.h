@@ -22,9 +22,7 @@ private:
     class Deleter {
     public:
         Deleter() = default;
-        ~Deleter() {
-            if (Singleton::m_instance != nullptr) { delete Singleton::m_instance; }
-        }
+        ~Deleter() { delete Singleton::m_instance; }
     };
     static Deleter deleter;
 
