@@ -7,27 +7,23 @@
 
 #include <iostream>
 
+template<typename T>
 class Singleton {
 public:
-    Singleton(const Singleton &) = delete;
-    Singleton &operator=(const Singleton &) = delete;
+    Singleton(const Singleton<T> &) = delete;
+    Singleton(Singleton<T> &&) = delete;
+    Singleton<T> &operator=(const Singleton<T> &) = delete;
+    Singleton<T> &operator=(Singleton<T> &&) = delete;
 
-    static Singleton *instance();
+    static T *instance();
     inline void show() { std::cout << "Singleton::show()" << std::endl; }
 
-private:
+protected:
     Singleton() = default;
-    ~Singleton() = default;
-
-    class Deleter {
-    public:
-        Deleter() = default;
-        ~Deleter() { delete Singleton::m_instance; }
-    };
-    static Deleter deleter;
+    virtual ~Singleton() = default;
 
 private:
-    static Singleton *m_instance;
+    static T *m_instance;
 };
 
 #endif//DESIGN_PATTERN_SINGLETON_H

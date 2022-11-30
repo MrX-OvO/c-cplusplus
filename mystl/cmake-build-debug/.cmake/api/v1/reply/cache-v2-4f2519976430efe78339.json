@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/mrxovo/Codes/cpp/design-pattern/cmake-build-debug"
+			"value" : "/home/mrxovo/Codes/cpp/mystl/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "24"
+			"value" : "25"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -555,7 +555,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mrxovo/Codes/cpp/design-pattern/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/home/mrxovo/Codes/cpp/mystl/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -615,7 +615,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/mrxovo/Codes/cpp/design-pattern"
+			"value" : "/home/mrxovo/Codes/cpp/mystl"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -855,7 +855,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "design_pattern"
+			"value" : "mystl"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1150,7 +1150,7 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "design_pattern_BINARY_DIR",
+			"name" : "mystl_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1159,10 +1159,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mrxovo/Codes/cpp/design-pattern/cmake-build-debug"
+			"value" : "/home/mrxovo/Codes/cpp/mystl/cmake-build-debug"
 		},
 		{
-			"name" : "design_pattern_IS_TOP_LEVEL",
+			"name" : "mystl_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1174,7 +1174,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "design_pattern_SOURCE_DIR",
+			"name" : "mystl_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1183,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/mrxovo/Codes/cpp/design-pattern"
+			"value" : "/home/mrxovo/Codes/cpp/mystl"
 		}
 	],
 	"kind" : "cache",

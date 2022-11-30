@@ -4,11 +4,11 @@
 
 #include "singleton.h"
 
-Singleton::Deleter Singleton::deleter;
+template<typename T>
+T *Singleton<T>::m_instance = nullptr;
 
-Singleton *Singleton::m_instance = nullptr;
-
-Singleton *Singleton::instance() {
-    if (m_instance == nullptr) { m_instance = new Singleton(); }
+template<typename T>
+T *Singleton<T>::instance() {
+    if (m_instance == nullptr) { m_instance = new T(); }
     return m_instance;
 }

@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.24.3/CMakeSystem.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.25.0/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -15,11 +15,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.24.3/CMakeCCompiler.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.25.0/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.24.3/CMakeCXXCompiler.cmake"
+			"path" : "cmake-build-debug/CMakeFiles/3.25.0/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -125,8 +125,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/mrxovo/Codes/cpp/design-pattern/cmake-build-debug",
-		"source" : "/home/mrxovo/Codes/cpp/design-pattern"
+		"build" : "/home/mrxovo/Codes/cpp/mystl/cmake-build-debug",
+		"source" : "/home/mrxovo/Codes/cpp/mystl"
 	},
 	"version" : 
 	{

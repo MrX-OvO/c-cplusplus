@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.24"
+						"string" : "3.25"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "design_pattern",
+					"name" : "mystl",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "design_pattern::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-design_pattern-Debug-becd109c1bf6dc0c1df8.json",
-					"name" : "design_pattern",
+					"id" : "mystl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mystl-Debug-0555f9cdd833a6306224.json",
+					"name" : "mystl",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/mrxovo/Codes/cpp/design-pattern/cmake-build-debug",
-		"source" : "/home/mrxovo/Codes/cpp/design-pattern"
+		"build" : "/home/mrxovo/Codes/cpp/mystl/cmake-build-debug",
+		"source" : "/home/mrxovo/Codes/cpp/mystl"
 	},
 	"version" : 
 	{

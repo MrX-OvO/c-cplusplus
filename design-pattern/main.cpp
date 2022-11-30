@@ -1,6 +1,6 @@
-#include "./singleton/singleton.h"
+#include "./singleton/A.h"
 
 int main() {
-    Singleton::instance()->show();
+    //A::instance()->show();
     return 0;
 }
