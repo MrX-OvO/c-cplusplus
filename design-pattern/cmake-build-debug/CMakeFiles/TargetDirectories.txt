@@ -1,3 +1,0 @@
-/home/mrxovo/Codes/cpp/design-pattern/cmake-build-debug/CMakeFiles/design_pattern.dir
-/home/mrxovo/Codes/cpp/design-pattern/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/mrxovo/Codes/cpp/design-pattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir

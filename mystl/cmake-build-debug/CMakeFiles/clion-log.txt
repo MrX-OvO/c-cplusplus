@@ -1,4 +1,0 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/ninja -G Ninja -S /home/mrxovo/Codes/cpp/mystl -B /home/mrxovo/Codes/cpp/mystl/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /home/mrxovo/Codes/cpp/mystl/cmake-build-debug
